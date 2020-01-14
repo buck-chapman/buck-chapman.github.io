@@ -1,0 +1,50 @@
+/*
+font-family: 'Chicle', cursive;
+font-family: 'Oswald', sans-serif;
+*/
+
+h1{
+  font-family: 'Chicle', cursive;
+  font-size: 60pt;
+  color:#B3843B;
+  text-align: center;
+}
+
+body{
+  font-family: 'Oswald', sans-serif;
+  font-size: 15pt;
+  color:#B3843B;
+  text-align: justify;
+}
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+
+.grid-demo .feature {
+  grid-column: 1/3;
+  grid-row: 1/3;
+  font-weight: 200;
+
+}
+
+.grid-demo section {
+display: grid;
+grid-template-columns: repeat(3,1fr);
+grid-gap: 20px;
+text-align: center;
+}
+
+.grid-demo div {
+border: 5px dashed;
+padding: 20px;
+border-radius: 45px;
+
+color:#B3843B;
+}

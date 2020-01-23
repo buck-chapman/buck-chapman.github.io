@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Absolute Positioning</title>
+
+  <style>
+    .parent{
+      position: relative;
+      border: 1px solid red;
+      margin: 100px;
+      min-height: 400px;
+    }
+
+    .child1 {position: absolute; top: 30px; left: 30px;
+      display: inline-block; width: 100px; height: 100px; background-color:rgba(127,172,105,1) ; }
+
+    .child2 {
+      display: inline-block; width: 100px; height: 100px; background-color:rgba(14,155,101,1) ;}
+
+    .child3 {
+      display: inline-block; width: 100px; height: 100px; background-color:rgba(69,106,88,1) ;}
+
+  </style>
+
+
+</head>
+<body>
+  <div class="parent">
+    <div class="child1">sale!</div>
+    <div class="child2"></div>
+    <div class="child3"></div>
+    <h1>Now With Extra Crunch</h1>
+  </div>
+
+
+</body>
+</html>

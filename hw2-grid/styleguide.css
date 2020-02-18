@@ -42,8 +42,8 @@ text-align: center;
 }
 
 .grid-demo div {
-border: 5px dashed;
-padding: 20px;
+border: 5px solid;
+padding: 40px;
 border-radius: 45px;
 
 color:#B3843B;

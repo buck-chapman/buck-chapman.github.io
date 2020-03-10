@@ -1,0 +1,54 @@
+/*main */
+
+@import url('https://fonts.googleapis.com/css?family=Krona+One|Roboto+Mono&display=swap');
+/*
+font-family: 'Krona One', helvetica ;
+font-family: 'Roboto Mono', ;
+*/
+
+$body-font:'Roboto Mono', ;
+
+$header-font:'Krona One';
+
+$primary-text: #094A70;
+
+$secondary-text: #666666;
+
+$highlight-text: #FF96A0;
+
+$primary-background: #D1D0AB;
+
+body{
+  font-family:$body-font;
+}
+
+
+h1, h2, h3, h4{
+color: $primary-text;
+font-family: $header-font;
+}
+
+
+h1{
+  font-size: 60px;
+}
+
+.content{
+  width: 70%;
+  margin: auto;
+  padding: 20px;
+  p{
+    font-size: 18px;
+  }
+  a{
+    text-decoration: none;
+    color: $highlight-text;
+    &:hover{
+      text-decoration: line-through;
+      color: complement($highlight-text);
+    }
+  }
+}
+
+
+@import
